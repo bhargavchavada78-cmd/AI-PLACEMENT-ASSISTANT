@@ -3,6 +3,8 @@ pandas
 numpy
 scikit-learn
 joblib
+tensorflow-cpu
+seaborn
 matplotlib
 plotly
 mysql-connector-python
