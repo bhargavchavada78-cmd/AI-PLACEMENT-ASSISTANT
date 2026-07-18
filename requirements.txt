@@ -8,5 +8,4 @@ matplotlib
 seaborn
 plotly
 mysql-connector-python
-streamlit_option_menu
 streamlit-option-menu
