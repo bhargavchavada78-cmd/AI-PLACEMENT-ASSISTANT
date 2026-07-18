@@ -33,12 +33,21 @@ Streamlit Option Menu
 
 
 📂 Project Structure
+
 AI-Placement-Assistant/
+
 │
+
 ├── app.py
+
 ├── model.keras
+
 ├── domain_prediction_model2.pkl
+
 ├── label_encoder.pkl
+
 ├── users.json
+
 ├── requirements.txt
+
 └── README.md
