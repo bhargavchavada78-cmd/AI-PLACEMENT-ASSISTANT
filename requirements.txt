@@ -9,3 +9,4 @@ matplotlib
 plotly
 streamlit-option-menu
 reportlab
+PyPDF2
