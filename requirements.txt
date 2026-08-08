@@ -8,3 +8,4 @@ seaborn
 matplotlib
 plotly
 streamlit-option-menu
+reportlab
