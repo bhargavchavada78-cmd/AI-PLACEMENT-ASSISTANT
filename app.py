@@ -78,9 +78,6 @@ if not st.session_state.logged_in:
                 st.error("Invalid Username or Password")
 
     st.stop()
-# ----------------------------
-# PAGE CONFIG
-# ----------------------------
 
 
 st.markdown("""
@@ -141,9 +138,7 @@ to{opacity:1;}
 </style>
 """,unsafe_allow_html=True)
 
-# ----------------------------
-# LOAD MODELS
-# ----------------------------
+
 
 domain_model = joblib.load("domain_prediction_model2.pkl")
 
@@ -165,9 +160,6 @@ career_skills = {
     "Software Testing": ["Selenium","Manual Testing","Automation Testing"]
 }
 
-# ----------------------------
-# HEADER
-# ----------------------------
 
 #st.markdown("""
 #<div class="title">
@@ -286,7 +278,7 @@ elif selected == "Resume Analyzer":
         📋Resume Analyzer      
     </div>
     """, unsafe_allow_html=True)
-<<<<<<< HEAD
+
 elif selected == "Interview Prep":
     st.markdown("""
     <div style="
@@ -385,9 +377,6 @@ Choose any option from the left sidebar.
             )           
 
 
-# ==================================================
-# TAB 1
-# ==================================================
 
 if selected == "Career Recommendation":
 
@@ -506,9 +495,7 @@ if selected == "Career Recommendation":
             st.markdown(f"✅ {skill}")
         
 
-# ==================================================
-# TAB 2
-# ==================================================
+
 
 if selected == "Placement Prediction":
 
