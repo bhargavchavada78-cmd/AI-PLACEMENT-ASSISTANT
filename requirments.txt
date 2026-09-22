@@ -10,3 +10,16 @@ plotly
 mysql-connector-python
 streamlit-option-menu
 reportlab
+streamlit
+numpy
+pandas
+scikit-learn
+tensorflow
+joblib
+matplotlib
+seaborn
+nltk
+faster-whisper
+opencv-python
+mediapipe
+reportlab
