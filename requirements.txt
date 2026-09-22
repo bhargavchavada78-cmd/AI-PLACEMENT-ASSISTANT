@@ -24,4 +24,17 @@ plotly
 streamlit-option-menu
 reportlab
 PyPDF2
+streamlit
+numpy
+pandas
+scikit-learn
+tensorflow
+joblib
+matplotlib
+seaborn
+nltk
+faster-whisper
+opencv-python
+mediapipe
+reportlab
 >>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
