@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-streamlit
-pandas
-numpy
-scikit-learn
-joblib
-tensorflow==2.19.0
-seaborn
-matplotlib
-plotly
-streamlit-option-menu
-reportlab
-PyPDF2
-=======
-streamlit
-pandas
-numpy
-scikit-learn
-joblib
-tensorflow==2.19.0
-seaborn
-matplotlib
-plotly
-streamlit-option-menu
-reportlab
-PyPDF2
 streamlit
 numpy
 pandas
@@ -34,7 +8,5 @@ matplotlib
 seaborn
 nltk
 faster-whisper
-opencv-python
-mediapipe
+opencv-python-headless
 reportlab
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
