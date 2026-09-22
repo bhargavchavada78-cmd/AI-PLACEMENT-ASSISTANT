@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+tensorflow==2.19.0
+seaborn
+matplotlib
+plotly
+streamlit-option-menu
+reportlab
+PyPDF2
