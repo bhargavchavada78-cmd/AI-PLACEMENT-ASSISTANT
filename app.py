@@ -708,7 +708,7 @@ if selected == "Resume Analyzer":
 if selected == "Interview Prep":
     show_interview()
     
-                st.write("❌", skill)    
+    st.write("❌", skill)    
 
 if selected == "About":
 
