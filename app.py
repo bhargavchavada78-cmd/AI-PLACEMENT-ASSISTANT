@@ -12,10 +12,9 @@ import json
 import os
 import inspect
 import resume_analyzers
-<<<<<<< HEAD
+
 from interview.interview_ui import show_interview
-=======
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
+
 importlib.reload(resume_analyzers)
 
     
@@ -188,22 +187,20 @@ with st.sidebar:
             "Placement Prediction",
             "Resume Builder",
             "Resume Analyzer",
-<<<<<<< HEAD
+
             "Interview Prep",
-=======
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
+
             "About"
         ],
         icons=[
             "house-fill",
             "briefcase-fill",
             "graph-up-arrow",
-<<<<<<< HEAD
+
             "file-earmark-text-fill",
             "file-earmark-person-fill",
             "mic-fill",
-=======
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
+
             "info-circle-fill"
         ],
         menu_icon="robot",
@@ -304,9 +301,7 @@ elif selected == "Interview Prep":
         🎤 Interview Preparation
     </div>
     """, unsafe_allow_html=True)
-=======
 
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
 elif selected == "About":
     st.markdown("""
     <div style="
@@ -344,11 +339,10 @@ Choose any option from the left sidebar.
 """
     )
 
-<<<<<<< HEAD
+
     col1, col2, col3, col4, col5 = st.columns(5)
-=======
+
     col1, col2, col3, col4 = st.columns(4)
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
 
     with col1:
 
@@ -387,9 +381,9 @@ Choose any option from the left sidebar.
             st.write(
                 "Practice for interviews and get feedback."
             )                   
-=======
+
             )           
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
+
 
 # ==================================================
 # TAB 1
@@ -723,33 +717,15 @@ if selected == "Resume Analyzer":
             st.subheader("❌ Missing Skills")
 
             for skill in missing_skills:
-<<<<<<< HEAD
+
                 st.write("❌", skill)   
 if selected == "Interview Prep":
-    show_interview()                 
-=======
+    show_interview()
+    
                 st.write("❌", skill)    
->>>>>>> acc84440035e2a5af717ca22b6a7541b298b4fd4
+
 if selected == "About":
 
     st.header("About Project")
 
-    st.write("""
-### AI Powered Placement Preparation Assistant
-
-Technology Used
-
-- Python
-
-- Streamlit
-
-- Machine Learning
-
-- TensorFlow
-
-- Scikit-learn
-
-Developed By
-
-Bhargav
-""")   
+    
