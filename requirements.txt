@@ -35,3 +35,14 @@ faster-whisper
 opencv-python
 mediapipe
 reportlab
+streamlit
+streamlit-option-menu
+numpy
+pandas
+scikit-learn
+joblib
+tensorflow
+PyPDF2
+reportlab
+faster-whisper
+opencv-python-headless
